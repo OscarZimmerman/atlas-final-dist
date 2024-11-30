@@ -15,3 +15,4 @@ wait
 
 if you wanted to run two workers e.g.
 
+Additionally, if you want to decrease the amount of data processed in each subset, then change the parameter 'fraction' in the process.py file. 
