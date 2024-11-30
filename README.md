@@ -1,5 +1,5 @@
 # atlas-final
-
+NOTE: This code does not work, and does not produce a graph. To see a working dockerized version of the code, that doesn't use RabbitMQ, see my other repo: 'atlas-final'. Below is the readme file that would be relevant if the code worked. 
 
 To run this container, simply export the file to your local files, and run in your linux enivironment the setup shell file (e.g. ./setup.sh). This should set up the container, the rabbitMQ site, run the code, and export the final graph. Results have been ommitted from the final repository, so they can be reproduced for marking, but the final graph produced in testing can be seen in the report. 
 
