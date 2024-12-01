@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir --upgrade pip \
 RUN pip install --no-cache-dir pika==1.3.1
 
 # Expose RabbitMQ default port (if RabbitMQ is running inside this container)
-EXPOSE 5672
+EXPOSE 5672 15672
 
 # Command to run when the container starts
 CMD ["bash"]
